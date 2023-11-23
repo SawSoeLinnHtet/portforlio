@@ -14,11 +14,16 @@
 <body>
     <div class="app">
         <div class="nav-bar w-full bg-white flex py-2 justify-between fixed z-50">
-            <div class="logo pl-16 flex justify-center items-center">
+            <div class="logo pl-16 max-md:pl-3 flex justify-center items-center">
                 <img src="./assets/img/man.png" class="w-12" alt="logo">
                 <h1 class="text-2xl font-bold ml-5 tracking-widest">Saw Soe Linn Htet</h1>
             </div>
-            <div class="nav-menu flex items-center max-sm:hidden max-md:hidden">
+            <div class="responsive-menu hidden max-lg:block">
+                <button class="toggle-btn text-gray-700 rounded-lg mr-3 outline-none px-5 py-3 border-2">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            <div class="nav-menu flex items-center max-lg:hidden">
                 <ul class="flex justify-end items-center text-lg pr-10 font-medium tracking-wider">
                     <li class="py-6 px-9">
                         <a href="./" class="hover:text-indigo-600">
@@ -42,9 +47,33 @@
                     </li>
                 </ul>
             </div>
+            <div id="responsive-menu" class="hidden shadow-lg absolute mt-[70px] border-t-2 flex justify-end top-0 left-0 z-10 w-full bg-white">
+                <ul class="w-full flex flex-col text-sm font-semibold tracking-widest text-right  [&_li:hover]:text-violet-600">
+                    <li class="py-4 pr-4 border-b-2 w-full cursor-pointer">
+                        <a href="" class="block">
+                            HOME
+                        </a>
+                    </li>
+                    <li class="py-4 pr-4 border-b-2 w-full cursor-pointer">
+                        <a href="#about" class="block">
+                            ABOUT
+                        </a>
+                    </li>
+                    <li class="py-4 pr-4 border-b-2 w-full cursor-pointer">
+                        <a href="" class="block">
+                            PROJECTS
+                        </a>
+                    </li>
+                    <li class="py-4 pb-5 pr-4 w-full cursor-pointer">
+                        <a href="#contact" class="block">
+                            CONTACT
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <section class="main-area w-full bg-slate-100 max-sm:pt-30 max-md:pt-20 flex justify-center items-center">
-            <div class="greeting-content w-9/12 px-5 py-5 flex justify-center items-center flex-col">
+            <div class="greeting-content w-9/12 max-lg:w-full px-5 py-5 flex justify-center items-center flex-col">
                 <p class="text-7xl max-md:text-5xl max-sm:text-4xl text-green-950 font-bold text-center mb-5">
                     HEY, I'M SAW SOE LINN HTET
                 </p>
@@ -86,15 +115,15 @@
             </div>
         </section>
         <section class="about px-10 py-28" id="about">
-            <div class="section-title container flex items-center justify-center flex-col text-center px-44 max-md:px-5">
+            <div class="section-title container flex items-center justify-center flex-col text-center px-44 max-lg:px-5">
                 <p class="text-4xl font-bold tracking-wider">ABOUT ME</p>
                 <div class="px-5 py-1 bg-indigo-600 mt-5 rounded"></div>
                 <p class="text-2xl mt-10 text-slate-700 font-normal">
-                    Here you will find more information about me, what I do, and my current skills mostly in terms <br/> of programming and technology
+                    Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology
                 </p>
             </div>
-            <div class="flex mt-32 px-10 max-md:flex-col max-md:px-0">
-                <div class="border-b-2 pb-10 flex-auto max-md:flex-1 px-5 max-md:px-0:pl-5 pr-10 max-md:pr-0 py-5 w-1/2 max-md:w-full">
+            <div class="flex mt-32 px-10 max-lg:flex-col max-lg:px-0">
+                <div class="border-b-2 pb-10 flex-auto max-lg:flex-1 px-5 max-lg:px-0:pl-5 pr-10 max-md:pr-0 py-5 w-1/2 max-lg:w-full">
                     <p class="text-2xl tracking-wide font-semibold">
                         Get to know me!
                     </p>
@@ -113,7 +142,7 @@
                         Contact
                     </button>
                 </div>
-                <div class="border-b-2 flex-auto max-md:flex-1 px-5 py-5 w-1/2 max-md:w-full">
+                <div class="border-b-2 flex-auto max-lg:flex-1 px-5 py-5 w-1/2 max-lg:w-full">
                     <p class="text-2xl tracking-wider font-semibold">
                         My Skills
                     </p>
@@ -208,63 +237,63 @@
                     </div>
                 </div>
             </div>
-            <div class="flex mt-10 max-md:mt-8 px-10 max-md:flex-col max-md:px-0">
-                <div class="flex-auto max-md:flex-1 px-5 max-md:px-0:pl-5 pr-10 max-md:pr-0 py-5 w-1/2 max-md:w-full">
+            <div class="flex mt-10 max-md:mt-8 px-10 max-lg:flex-col max-lg:px-0">
+                <div class="flex-auto max-lg:flex-1 px-5 max-lg:px-0:pl-5 pr-10 max-lg:pr-0 py-5 w-1/2 max-lg:w-full">
                     <p class="text-2xl tracking-wide font-semibold">
                         Information
                     </p>
                     <div class="mt-10">
-                        <p class="text-lg">
-                            <i class="fas fa-calendar-alt text-xl text-indigo-700"></i>
-                            <span class="ml-3 text-slate-700">Birth Date</span>
+                        <p class="text-lg flex">
+                            <i class="fas fa-calendar-alt mt-1 text-xl text-indigo-700"></i>
+                            <span class="ml-3 text-slate-700 mr-1">Birth Date </span>
                             :
-                            <span class="ml-5">
+                            <span class="ml-3">
                                 6/8/2002
                             </span>
                         </p>
-                        <p class="text-lg mt-4">
-                            <i class="fas fa-venus-mars text-xl text-indigo-700"></i>
-                            <span class="ml-3 text-slate-700">Gender</span>
+                        <p class="text-lg mt-4 flex">
+                            <i class="fas fa-venus-mars text-xl mt-1 text-indigo-700"></i>
+                            <span class="ml-3 text-slate-700 mr-1">Gender </span>
                             :
-                            <span class="ml-5">
+                            <span class="ml-3">
                                 Male
                             </span>
                         </p>
-                        <p class="text-lg mt-4">
-                            <i class="fas fa-phone text-xl rotate-90 text-indigo-700"></i>
-                            <span class="ml-3 text-slate-700">Phone Number</span>
+                        <p class="text-lg mt-4 flex">
+                            <i class="fas fa-phone text-xl mt-1 rotate-90 text-indigo-700"></i>
+                            <span class="ml-3 text-slate-700 mr-1">Phone</span> 
                             :
-                            <span class="ml-5 inline">
+                            <span class="ml-3 inline">
                                 09962569030, 09424853424, 09770042914
                             </span>
                         </p>
-                        <p class="text-lg mt-4">
-                            <i class="fas fa-envelope text-xl text-indigo-700"></i>
-                            <span class="ml-3 text-slate-700">Gmail</span>
+                        <p class="text-lg mt-4 flex">
+                            <i class="fas fa-envelope text-xl mt-1 text-indigo-700"></i>
+                            <span class="ml-3 text-slate-700 mr-1">Gmail</span>
                             :
-                            <span class="ml-5">
+                            <span class="ml-3">
                                 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sawsoelinnhtet19@gmail.com" class="underline decoration-blue-400">sawsoelinnhtet19@gmail.com</a>
                             </span>
                         </p>
-                        <p class="text-lg mt-4">
-                            <i class="fab fa-github text-xl text-indigo-700"></i>
-                            <span class="ml-3 text-slate-700">GitHub</span>
+                        <p class="text-lg mt-4 flex">
+                            <i class="fab fa-github text-xl mt-1 text-indigo-700"></i>
+                            <span class="ml-3 text-slate-700 mr-1">GitHub</span>
                             :
-                            <span class="ml-5">
+                            <span class="ml-3">
                                 <a href="https://github.com/SawSoeLinnHtet" class="underline decoration-blue-400">https://github.com/SawSoeLinnHtet</a>
                             </span>
                         </p>
-                        <p class="text-lg mt-4">
-                            <i class="fas fa-map-marker-alt text-xl text-indigo-700"></i>
-                            <span class="ml-3 text-slate-700">Address</span>
+                        <p class="text-lg mt-4 flex">
+                            <i class="fas fa-map-marker-alt text-xl mt-1 text-indigo-700"></i>
+                            <span class="ml-3 text-slate-700 mr-1">Address</span>
                             :
-                            <span class="ml-5">
+                            <span class="ml-3">
                                 Oak Yay Twin St, Taung Thu Gone, Insein, Yangon
                             </span>
                         </p>
                     </div>
                 </div>
-                <div class="flex-auto max-md:flex-1 px-5 py-5 w-1/2 max-md:w-full">
+                <div class="flex-auto max-lg:flex-1 px-5 py-5 w-1/2 max-lg:w-full">
                     <p class="text-2xl tracking-wider font-semibold">
                         Experiences
                     </p>
@@ -314,20 +343,20 @@
             <div class="flex items-center justify-center flex-col mt-20">
                 <p class="text-3xl text-center">If you want to know more about me,<br/> click to download my CV</p>
                 <a href="./assets/files/sawsoelinnhtet-cv-2023.pdf" class="bg-violet-600 text-white rounded-md px-12 py-4 text-2xl mt-12 pb-5" download>
-                    Download CV directly <i class="fas fa-download"></i>
+                    Download CV directly <i class="fas fa-download animate-bounce ml-2"></i>
                 </a>
             </div>
         </section>
         <section class="contact px-10 py-28" id="contact">
-            <div class="section-title container flex items-center justify-center flex-col text-center px-44 max-md:px-5">
+            <div class="section-title container flex items-center justify-center flex-col text-center px-44 max-lg:px-5">
                 <p class="text-4xl font-bold tracking-wider">CONTACT</p>
                 <div class="px-5 py-1 bg-indigo-600 mt-5 rounded"></div>
                 <p class="text-2xl mt-10 text-slate-700 font-normal">
                     Feel free to Contact me by submitting the form below and I will get back to you as soon as possible
                 </p>
             </div>
-            <div class="contact-form container flex items-center justify-center px-10 max-md:px-0 py-10">
-                <div class="px-10 py-10 bg-white w-8/12 max-md:w-full rounded-sm drop-shadow-lg">
+            <div class="contact-form container flex items-center justify-center px-10 max-lg:px-0 py-10">
+                <div class="px-10 py-10 bg-white w-8/12 max-lg:w-full rounded-sm drop-shadow-lg">
                     <form action="">
                         <div class="w-full mb-5">
                             <label for="" class="block text-lg text-gray-600 font-semibold mb-3">
@@ -356,7 +385,7 @@
                 </div>
             </div>
         </section>
-        <section class="footer px-28 pt-20 pb-10 bg-black">
+        <section class="footer px-28 max-lg:px-10 pt-20 pb-10 bg-black">
             <div class="flex text-white border-b-2 pb-10 justify-between max-md:flex-col">
                 <div class="w-4/12 max-md:w-full">
                     <h1 class="text-2xl">Saw Soe Linn Htet</h1>
@@ -402,5 +431,13 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.toggle-btn').on('click', function () {
+                $('#responsive-menu').fadeToggle()
+            })
+        })
+    </script>
 </body>
 </html>

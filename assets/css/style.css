@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.main-area{
+    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url('https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg');
+    background-position: center;
+    height: max-content;
+    min-height: 50rem;
+    max-height: 100rem;
+    position: relative;
+}
+
+.contact{
+    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url('https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg');
+    background-position: center;
+}

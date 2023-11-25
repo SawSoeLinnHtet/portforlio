@@ -7,7 +7,7 @@ const Header = () => {
             <div className="logo pl-16 max-md:pl-3">
                 <a href="#App" className="flex justify-center items-center mt-2">
                     <img src={logo} className="w-8 mt-1" alt="logo"/>
-                    <h1 className="text-2xl font-bold ml-5 tracking-widest">React</h1>
+                    <h1 className="text-2xl font-bold ml-5 tracking-widest">Saw Soe Linn Htet</h1>
                 </a>
             </div>
             <div className="responsive-menu hidden max-lg:block">

@@ -12,7 +12,7 @@ const Projects = () => {
                 <p className="text-4xl font-bold tracking-wider">PROJECTS</p>
                 <div className="px-5 py-1 bg-indigo-600 mt-5 rounded"></div>
                 <p className="text-2xl mt-10 text-slate-700 font-normal">
-                    Here you will find some of the personal projects that I created
+                    Here you will find some of the personal projects that I created for your reference
                 </p>
             </div>
             <div className="flex mt-32 max-lg:mt-16 px-10 max-lg:flex-col max-lg:px-0">

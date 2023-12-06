@@ -10,9 +10,9 @@ const Home = () => {
                 <p className="text-md text-center text-slate-500 font-light text-xl tracking-wider">
                     A Web Developer building the Websites with Laravel and for the Frontend Development using Vue, React and other libraries, plugins, frameworks.
                 </p>
-                <button className="bg-indigo-600 text-white rounded-md px-20 py-4 text-2xl mt-16 pb-5">
+                <a href="#project" className="bg-indigo-600 text-white rounded-md px-20 py-4 text-2xl mt-16 pb-5">
                     Projects
-                </button>
+                </a>
             </div>
             <div className="social-tab bg-white drop-shadow-lg absolute p-2 left-0 max-md:hidden">
                 <ul>

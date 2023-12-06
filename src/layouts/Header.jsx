@@ -40,23 +40,23 @@ const Header = () => {
                 </ul>
             </div>
             <div id="responsive-menu" className="hidden shadow-lg absolute mt-[75px] border-t-2 flex justify-end top-0 left-0 z-10 w-full bg-white">
-                <ul className="w-full flex flex-col text-sm font-semibold tracking-widest text-right  [&_li:hover]:text-violet-600">
-                    <li className="py-4 pr-4 border-b-2 w-full cursor-pointer">
+                <ul className="w-full flex flex-col text-sm font-semibold tracking-widest text-left  [&_li:hover]:text-violet-600">
+                    <li className="py-4 pl-4 border-b-2 w-full cursor-pointer">
                         <a href="" className="block">
                             HOME
                         </a>
                     </li>
-                    <li className="py-4 pr-4 border-b-2 w-full cursor-pointer">
+                    <li className="py-4 pl-4 border-b-2 w-full cursor-pointer">
                         <a href="#about" className="block">
                             ABOUT
                         </a>
                     </li>
-                    <li className="py-4 pr-4 border-b-2 w-full cursor-pointer">
+                    <li className="py-4 pl-4 border-b-2 w-full cursor-pointer">
                         <a href="#project" className="block">
                             PROJECTS
                         </a>
                     </li>
-                    <li className="py-4 pb-5 pr-4 w-full cursor-pointer">
+                    <li className="py-4 pb-5 pl-4 w-full cursor-pointer">
                         <a href="#contact" className="block">
                             CONTACT
                         </a>

@@ -1,4 +1,5 @@
 import React from "react";
+import Mailing from "../components/Mail";
 
 const Contact = () => {
     return (
@@ -11,33 +12,7 @@ const Contact = () => {
                 </p>
             </div>
             <div className="contact-form container flex items-center justify-center px-10 max-lg:px-0 py-10">
-                <div className="px-10 py-10 bg-white w-8/12 max-lg:w-full rounded-sm drop-shadow-lg">
-                    <form action="">
-                        <div className="w-full mb-5">
-                            <label for="" className="block text-lg text-gray-600 font-semibold mb-3">
-                                Name
-                            </label>
-                            <input type="text" placeholder="Enter Your Name" className="w-full rounded bg-slate-200 py-4 pl-5 outline-none text-gray-600 tracking-wide"/>
-                        </div>
-                        <div className="w-full mb-5">
-                            <label for="" className="block text-lg text-gray-600 font-semibold mb-3">
-                                Email
-                            </label>
-                            <input type="text" placeholder="Enter Your Email" className="w-full rounded bg-slate-200 py-4 pl-5 outline-none text-gray-600 tracking-wide"/>
-                        </div>
-                        <div className="w-full mb-5">
-                            <label for="" className="block text-lg text-gray-600 font-semibold mb-3">
-                                Message
-                            </label>
-                            <textarea name="" id="" cols="30" rows="8" placeholder="Enter Your Message" className="w-full rounded bg-slate-200 py-4 pl-5 outline-none text-gray-600 tracking-wide resize-none"></textarea>
-                        </div>
-                        <div className="w-full mb-5 flex items-center justify-end">
-                            <button className="bg-indigo-600 text-white rounded-md px-10 py-3 text-xl pb-4">
-                                Submit <i className="fab fa-telegram-plane ml-2"></i>
-                            </button>
-                        </div>
-                    </form>
-                </div>
+                <Mailing/>
             </div>
         </section>
     )

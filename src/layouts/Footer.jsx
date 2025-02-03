@@ -7,7 +7,7 @@ const Footer = () => {
               <div className="w-4/12 max-md:w-full">
                   <h1 className="text-2xl">Saw Soe Linn Htet</h1>
                   <p className="mt-6 text-md text-slate-300 font-light tracking-wider leading-6">
-                      A Full-Stack Web Developer building the Websites with Laravel and for the Frontend Development using Vue, React and other libraries, plugins, frameworks.
+                  A passionate Web Developer with over 2 years of hands-on experience in building dynamic websites using Laravel, Vue.js, React, and various modern frameworks.
                   </p>
               </div>
               <div className="w-2/12 max-md:w-full max-md:mt-5">

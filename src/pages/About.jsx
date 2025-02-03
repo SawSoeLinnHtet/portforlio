@@ -1,5 +1,5 @@
 import React from "react";
-import cv from '../assets/files/sawsoelinnhtet-cv-2023.pdf'
+import cv from '../assets/files/SawSoeLinnHtetCV.pdf';
 
 const About = () => {
     return (
@@ -18,13 +18,13 @@ const About = () => {
                     </p>
                     <p className="text-lg mt-10 tracking-normal text-slate-500">
                         <span className="leading-9 block">
-                            A Web Developer building the Websites with Laravel and for the Frontend Development using Vue, React and other libraries, plugins, frameworks.
+                            A passionate Web Developer with over 2 years of hands-on experience in building dynamic websites using Laravel, Vue.js, React, and various modern frameworks.
                         </span>
                         <span className="leading-9 mt-2 block">
-                                In August 2023, I achieved ‘Bachelor of Computer Science’ from Computer Science Major of Karen Baptist Theological Seminary (LAP). I have developed a solid foundation in programming and software development.
+                        I graduated with a Bachelor of Computer Science from Karen Baptist Theological Seminary (LAP) in August 2023.
                         </span>
                         <span className="leading-9 mt-2 block">
-                            I started learning eb development in last 2 years with my mentor. From PHP to Laravel, JavaScript to VueJs and other related technic. Now I think, I have enough knowledge to start my career to a professional.
+                        Throughout my professional journey, I've developed and maintained multiple web applications, implemented responsive designs, and collaborated with cross-functional teams. My expertise spans both backend development with PHP/Laravel and frontend development with JavaScript frameworks. I'm proficient in building RESTful APIs, managing databases, and implementing modern UI/UX practices. Currently seeking opportunities to contribute my skills and experience to challenging web development projects.
                         </span>
                     </p>
                     <button className="bg-indigo-600 text-white rounded-md px-12 py-3 text-2xl mt-10 pb-4">
@@ -188,7 +188,60 @@ const About = () => {
                     </p>
                     <div className="mt-10">
                         <div className="flex items-start">
-                            <span className="text-slate-700 mt-1 w-1/2">April - July 2022</span>
+                            <span className="text-slate-700 mt-1 w-1/2">2023 <br/>-<br/> Present</span>
+                            <div className="pl-10">
+                                <p className="flex justify-between mb-2">
+                                    <span className="text-xl">Software Engineer</span>
+                                </p>
+                                <span className="text-slate-600 mb-4 block">
+                                    Junior
+                                </span>
+                                <p>
+                                    <span className="text-xl text-slate-700">5BB Broadband - Global Technology Group</span>
+                                </p>
+                                <ul className="mt-2 tracking-wide text-slate-700">
+                                    <li>
+                                        Collaborated on design and development with cross- functional teams to deliver web applications.
+                                    </li>
+                                    <li className="mt-2">
+                                        Managed WiFi installation projects and implemented data storage systems for maintenance tracking.
+                                    </li>
+                                    <li className="mt-2">
+                                        Developed and maintained RESTful APIs to support mobile application functionality and integration.
+                                    </li>
+                                    <li className="mt-2">
+                                        Performed quality assurance and maintenance for web applications to ensure optimal performance and user experience.
+                                    </li>
+                                </ul>
+                                <div className="mt-5 flex flex-wrap gap-5 tracking-wide">
+                                    <div className="bg-slate-200 text-gray-500 rounded-md inline-block px-5 py-3">
+                                        Laravel
+                                    </div>
+                                    <div className="bg-slate-200 text-gray-500 rounded-md inline-block px-5 py-3">
+                                        PHP
+                                    </div>
+                                    <div className="bg-slate-200 text-gray-500 rounded-md inline-block px-5 py-3">
+                                        MYSQL
+                                    </div>
+                                    <div className="bg-slate-200 text-gray-500 rounded-md inline-block px-5 py-3">
+                                        VueJs
+                                    </div>
+                                    <div className="bg-slate-200 text-gray-500 rounded-md inline-block px-5 py-3">
+                                        JavaScript
+                                    </div>
+                                    <div className="bg-slate-200 text-gray-500 rounded-md inline-block px-5 py-3">
+                                        TailwindCSS
+                                    </div>
+                                    <div className="bg-slate-200 text-gray-500 rounded-md inline-block px-5 py-3">
+                                        Bootstrap
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="mt-10">
+                        <div className="flex items-start">
+                            <span className="text-slate-700 mt-1 w-1/2">April <br/>-<br/> July <br/>2022</span>
                             <div className="pl-10">
                                 <p className="flex justify-between mb-2">
                                     <span className="text-xl">Junior Frontend Developer</span>
@@ -201,10 +254,10 @@ const About = () => {
                                 </p>
                                 <ul className="mt-2 tracking-wide text-slate-700">
                                     <li>
-                                        Develop lyrics and music website as <a href="https://genius.com/" className="underline decoration-blue-400">genius.com</a> and <a href="https://www.azlyrics.com/" className="underline decoration-blue-400">azlyrics.com</a>
+                                        Developed responsive web interfaces and implemented modern frontend practices with Vue.js.
                                     </li>
                                     <li className="mt-2">
-                                        Used Nuxt(VueFramework) and SUPABASE(OnlineDB)
+                                        Gained hands-on experience with RESTful API integration and mastered Vue.js framework fundamentals
                                     </li>
                                     <li className="mt-2">
                                         Learned how to work with team, usage of GitHub and Linux Distro

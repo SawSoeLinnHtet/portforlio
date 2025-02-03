@@ -21,10 +21,9 @@ const Projects = () => {
                 </div>
                 <div className="flex-auto max-lg:flex-1 px-5 py-5 w-1/2 max-lg:w-full">
                     <div className="tracking-wide">
-                        <p className="text-2xl font-semibold">Knowtopix Social and Blogs</p>
+                        <p className="text-2xl font-semibold">Knowtopix Social and Blogs ( 2023 ) </p>
                         <p className="mt-10 text-lg font-normal text-slate-800">
-                            KnowTopix is a social-media and blogs platform that contain create posts and users are communicate with each others using with the action.
-                            Blogs feature is for writers and knowledge sharers to share content with this.
+                        KnowTopix is a social media and blogging platform where users can create posts and engage with each other through various interactions. The blogging feature is designed for writers and knowledge sharers to share valuable content with the community.
                         </p>
                         <div className="mt-5 flex flex-wrap gap-5 tracking-wide">
                             <div className="bg-slate-200 text-gray-500 rounded-md inline-block px-5 py-3">
@@ -72,9 +71,9 @@ const Projects = () => {
                 </div>
                 <div className="flex-auto max-lg:flex-1 px-5 py-5 w-1/2 max-lg:w-full">
                     <div className="tracking-wide">
-                        <p className="text-2xl font-semibold">Hi Wallet</p>
+                        <p className="text-2xl font-semibold">Hi Wallet (2023) </p>
                         <p className="mt-10 text-lg font-normal text-slate-800">
-                            Hi Wallet is the wallet system which can transfer amount between users. It contains with QR Scan system and other process. I learned this from youtube course for idea and coding process. 
+                        Hi Wallet is a digital wallet system that allows users to transfer funds between accounts. It includes a QR code scanning feature along with other transaction processes. I learned about this concept and its coding implementation from a YouTube course.
                         </p>
                         <div className="mt-5 flex flex-wrap gap-5 tracking-wide">
                             <div className="bg-slate-200 text-gray-500 rounded-md inline-block px-5 py-3">
@@ -116,9 +115,9 @@ const Projects = () => {
                 </div>
                 <div className="flex-auto max-lg:flex-1 px-5 py-5 w-1/2 max-lg:w-full">
                     <div className="tracking-wide">
-                        <p className="text-2xl font-semibold">Cinema Plus</p>
+                        <p className="text-2xl font-semibold">Cinema Plus (2022) </p>
                         <p className="mt-10 text-lg font-normal text-slate-800">
-                            Cinema Plus for movie enjoyers. In this web, you can know what movies are latest and trending. You can allow watch their trailer. This is developed by <a href="https://www.themoviedb.org/" className="underline decoration-blue-400">https://www.themoviedb.org/</a> 's APIs. 
+                            Cinema Plus is a platform for movie enthusiasts, providing the latest and trending movie updates. Users can watch trailers and stay informed about upcoming releases. This project is powered by APIs from The Movie Database TMDb) and was my starting point for learning Vue.js.
                         </p>
                         <div className="mt-5 flex flex-wrap gap-5 tracking-wide">
                             <div className="bg-slate-200 text-gray-500 rounded-md inline-block px-5 py-3">
@@ -148,9 +147,10 @@ const Projects = () => {
                 </div>
                 <div className="flex-auto max-lg:flex-1 px-5 py-5 w-1/2 max-lg:w-full">
                     <div className="tracking-wide">
-                        <p className="text-2xl font-semibold">Mahar Bote Pyin Nyar (Beta)</p>
+                        <p className="text-2xl font-semibold">Mahar Bote Pyin Nyar - Beta (2023)</p>
                         <p className="mt-10 text-lg font-normal text-slate-800">
-                            Mahar Bote, Astrology, like other astrology, what day will it be? When will it happen? It is not wisdom that tells when it will be and when it will be. If he does according to his own will, and if he doesn't do it, If you buy it, you own it. If you don't buy it, you don't own it. If you take it, you get it, if you don't take it, you don't get it. It is the knowledge that can distinguish what is beneficial only according to the karma that is made by oneself.
+                        Mahar Bote is an astrology-based system that, unlike traditional astrology, does not predict exact dates or events. Instead, it emphasizes personal choice and karma—what happens depends on one's own actions. If you take action, you receive results; if you don't, you wonʼt. This knowledge helps distinguish what is truly beneficial based on one's own deeds.
+                        <br/>This project uses Supabase API for data storage and management.
                         </p>
                         <div className="mt-5 flex flex-wrap gap-5 tracking-wide">
                             <div className="bg-slate-200 text-gray-500 rounded-md inline-block px-5 py-3">

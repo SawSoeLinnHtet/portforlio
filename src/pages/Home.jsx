@@ -8,7 +8,7 @@ const Home = () => {
                     HEY, I'M SAW SOE LINN HTET
                 </p>
                 <p className="text-md text-center text-slate-500 font-light text-xl tracking-wider">
-                    A Web Developer building the Websites with Laravel and for the Frontend Development using Vue, React and other libraries, plugins, frameworks.
+                A passionate Web Developer with over 2 years of hands-on experience in building dynamic websites using Laravel, Vue.js, React, and various modern frameworks.
                 </p>
                 <a href="#project" className="bg-indigo-600 text-white rounded-md px-20 py-4 text-2xl mt-16 pb-5">
                     Projects
@@ -37,7 +37,7 @@ const Home = () => {
                         </a>
                     </li>
                     <li className="block mb-2 px-3 py-2 pb-3 hover:bg-slate-300">
-                        <a href="https://t.me/hazel_uchiha" target="_blank" className="text-3xl" rel="noreferrer">
+                        <a href="https://t.me/hopeful_light_for_soul" target="_blank" className="text-3xl" rel="noreferrer">
                             <i className="fab fa-telegram"></i>
                         </a>
                     </li>
